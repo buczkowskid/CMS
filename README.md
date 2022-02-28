@@ -3,7 +3,7 @@
 
 This cms application allows you to manage customers and orders with the option of assigning orders to a specific customer using the drag and drop option.
 
-## Demo
+
 
 
 
