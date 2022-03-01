@@ -33,7 +33,7 @@ const Orders = () => {
 				orders: state.orders.map((x) => (x.id === order.id ? order : x)),
 			});
 		} else if (order.name === "") {
-			alert("test");
+			alert("Uzupełnij Nazwę");
 		} else {
 			const data = { ...order, id: Date.now() };
 			setState({ ...state, orders: [...state.orders, data] });

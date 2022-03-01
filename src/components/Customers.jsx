@@ -37,7 +37,7 @@ const Customers = () => {
 				),
 			});
 		} else if (customer.name === "" || customer.address === "") {
-			alert("test")
+			alert("Uzupełnij Nazwę i Adres!")
 		} else {
 			const data = { ...customer, id: Date.now(), orders: [] };
 			setState({ ...state, customers: [...state.customers, data] });
